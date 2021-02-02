@@ -1,16 +1,6 @@
 import React from "react";
-import {render} from "react-dom";
-class HelloMessage extends React.Component {
-    render() {
-        return <div>{`Hello ${this.props.name}`}</div>;
-    }
-}
+import ReactDOM from "react-dom";
+import App from "./app";
+import "./scss/style.scss";
 
-render(
-    <HelloMessage name={"Taylor"} />,
-    document.querySelector("#hello-example"),
-);
-
-console.log("yo");
-console.log("test");
-console.log("test");
+ReactDOM.render(<App />, document.querySelector("#root"));
