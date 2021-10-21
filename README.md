@@ -1,3 +1,3 @@
 # react-pomodoro
 
-https://me-juger-pas-ok.netlify.app/
+https://auban-react-pomodoro.netlify.app
